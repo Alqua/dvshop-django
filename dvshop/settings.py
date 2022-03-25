@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-$d_at503)&!s@jnt!2ydx-wy^943m&@%ur(n-c92a%z4ea&!_x
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 STRIPE_SECRET_KEY = 'sk_test_51KcVzuGNlPawdNSdEQ8BF7Hs9nFLpBDj9BhfGU673Krrliherx0SGmpuP22IDYtEzURtrNdizGgXZVIvCde8Tp8z00yOJ5oSGP'
 
@@ -90,12 +90,12 @@ WSGI_APPLICATION = 'dvshop.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
+# DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.sqlite3',
+#        'NAME': BASE_DIR / 'db.sqlite3',
+#    }
+#}
 
 
 # Password validation
